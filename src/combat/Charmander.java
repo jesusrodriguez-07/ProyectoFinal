@@ -1,5 +1,5 @@
 package combat;
 
-public class Charmander {
+public class Charmander extends Pokemon{
 
 }

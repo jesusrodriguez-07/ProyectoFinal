@@ -1,5 +1,5 @@
 package exceptions;
 
-public class MoveExhaustedException {
+public class MoveExhaustedException extends Exception{
 
 }

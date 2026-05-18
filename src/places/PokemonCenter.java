@@ -1,5 +1,9 @@
 package places;
 
-public class PokemonCenter {
+public class PokemonCenter extends Building{
 
+public void heal(tema: List<Pokemon>) {
+	
+}
+	
 }

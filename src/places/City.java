@@ -1,7 +1,7 @@
 package places;
 
 public class City {
-String Nombre;
-//List <Edificio>;
-//Lider Lider;
+private String Name;
+private buildings List<Building()>;
+//private leader Leader;
 }
