@@ -1,7 +1,7 @@
 package items;
 
+import combat.Pokemon;
+
 public interface IUsable {
-	public default void use() {
-		
-	}
+	void use(Pokemon target);
 }

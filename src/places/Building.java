@@ -1,5 +1,12 @@
 package places;
 
 public abstract class Building {
-protected String Name;
+	protected String name;
+
+	public Building() {
+	}
+
+	public String getName() {
+		return this.name;
+	}
 }

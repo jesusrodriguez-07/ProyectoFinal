@@ -1,7 +1,14 @@
 package characters;
 
 public abstract class Inhabitant {
-protected String name;
+	protected String name;
 
-public abstract void action();
+	public Inhabitant() {
+	}
+
+	public abstract void interact();
+
+	public String getName() {
+		return this.name;
+	}
 }

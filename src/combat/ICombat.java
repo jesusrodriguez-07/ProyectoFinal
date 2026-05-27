@@ -1,6 +1,10 @@
 package combat;
 
+import exceptions.MoveExhaustedException;
+import exceptions.PokemonFaintedException;
+
 public interface ICombat {
-public void attack(Pokemon target);
-public void takeDamage(int damage);
+	void attack(Pokemon target, int moveIndex) throws MoveExhaustedException, PokemonFaintedException;
+
+	void takeDamage(int damage);
 }
